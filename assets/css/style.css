@@ -18,7 +18,7 @@ body {
 }
 .navbar-override {
     background: #FF993D !important;
-    border: none;
+    border-color: rgba(0,0,0,0.1);
 }
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
 	border-color: #000;
