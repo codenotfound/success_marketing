@@ -1,0 +1,34 @@
+/* FIXES FOR MOBILE VERSION */
+/* Small devices (tablets, 768px and down) */
+@media screen and (max-width: 768px) {
+    body {
+        padding-top: 50px; /* space for fixed top navbar */
+    }
+}
+/* Medium devices (tablets, and up) */
+@media screen and (min-width: 992px) {
+    .ptop-ul {
+        padding-top: 50px; /* space for one ul*/
+    }
+}
+/* Large devices (laptops, and up) */
+@media screen and (min-width: 1200px) {
+    .ptop-ul {
+        padding-top: 80px; /* space for one ul*/
+    }
+}
+
+/* General mobile */
+.navbar-default .navbar-toggle {
+	border-color: #000;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+	background-color: #fff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #000;
+}
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:hover {
+    color: #000;
+}
