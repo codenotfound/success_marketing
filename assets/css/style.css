@@ -70,7 +70,9 @@ ul.nav a.no-hover:hover { color: #000 !important; }
     padding: 7px;
     margin-bottom: 15px !important;
     margin-top: 15px !important;
-    display: inline-block;
+}
+.sales-pitch:not(.ribbon){
+    display: none;
 }
 .solution-highlight {
     font-size: 24px;
@@ -85,10 +87,13 @@ ul.nav a.no-hover:hover { color: #000 !important; }
     padding-bottom: 50px;
 }
 .work-scheme-header {
-    /* padding: 20px 0 20px; */
-    /* margin-bottom: 50px; */
-    /* background: #FF993D; */
+    padding: 20px 0 20px;
+    margin-bottom: 50px;
+    background: #FF993D;
     font-size: 24px;
+}
+.work-scheme-header:not(.ribbon) {
+    display: none;
 }
 .work-scheme .thumbnail {
    border: none;

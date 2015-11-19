@@ -4,6 +4,15 @@
     body {
         padding-top: 50px; /* space for fixed top navbar */
     }
+    .carousel, .ribbon{
+        display:none !important;
+    }
+    .sales-pitch:not(.ribbon){
+        display: inline-block;
+    }
+    .work-scheme-header:not(.ribbon) {
+        display: block;
+    }
 }
 @media screen and (max-width: 992px){
     .carousel-caption {
